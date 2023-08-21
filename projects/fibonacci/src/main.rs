@@ -13,7 +13,7 @@ fn input() -> String
     io::stdin()
         .read_line(&mut n)
         .expect("Failed to read input");
-    return n.trim_end().to_string();
+    return n.trim().to_string();
 }
 
 fn fibonacci(n: u8) -> u128
